@@ -1,17 +1,22 @@
 
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
 /* Header Start */
 header {
   display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid black;
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  align-items: center;
-  border-bottom: 1px solid black;
-  height: 80px;
-  width: 100%;
-  background-color: white;
-  position: fixed;
-  z-index: 1;
 }
 
 .logo {
@@ -32,7 +37,6 @@ header {
 }
 
 header nav {
-  display: inline-block;
   padding-left: 40px;
 }
 /* Header End */
